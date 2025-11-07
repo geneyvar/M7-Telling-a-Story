@@ -1,7 +1,8 @@
-[gd_scene load_steps=7 format=3 uid="uid://b8o5qo3on08yk"]
+[gd_scene load_steps=8 format=3 uid="uid://b8o5qo3on08yk"]
 
 [ext_resource type="Theme" uid="uid://drays61pfu7xc" path="res://lessons/main_theme.tres" id="1_5dtme"]
 [ext_resource type="Shader" uid="uid://cs15e2hgd2lan" path="res://assets/sliding_background.gdshader" id="2_6cfwb"]
+[ext_resource type="Script" uid="uid://dhsjgposivl1e" path="res://lessons/dialogue.gd" id="2_nggfo"]
 [ext_resource type="Texture2D" uid="uid://bnly1gkbxw6b5" path="res://assets/bubble_pattern.png" id="3_nggfo"]
 [ext_resource type="Texture2D" uid="uid://copkt78vgp37i" path="res://assets/sophia.png" id="4_rduj4"]
 [ext_resource type="Texture2D" uid="uid://d000xjtr4iqtk" path="res://assets/emotion_regular.png" id="5_xlxck"]
@@ -21,6 +22,7 @@ anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
 theme = ExtResource("1_5dtme")
+script = ExtResource("2_nggfo")
 
 [node name="Background" type="ColorRect" parent="."]
 material = SubResource("ShaderMaterial_iq77p")
@@ -64,8 +66,8 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 offset_left = 90.0
 offset_top = 560.0
-offset_right = -194.0
-offset_bottom = -400.0
+offset_right = -95.0
+offset_bottom = -329.0
 grow_horizontal = 2
 grow_vertical = 2
 text = "Hello World!"
@@ -83,5 +85,3 @@ offset_top = -149.0
 grow_horizontal = 0
 grow_vertical = 0
 text = "next"
-
-[node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="."]
