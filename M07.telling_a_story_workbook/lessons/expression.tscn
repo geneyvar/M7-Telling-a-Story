@@ -4,7 +4,7 @@
 [ext_resource type="Script" uid="uid://cbrfx65o5gn8h" path="res://lessons/expression.gd" id="2_4j23m"]
 [ext_resource type="Shader" uid="uid://cs15e2hgd2lan" path="res://assets/sliding_background.gdshader" id="3_56v88"]
 [ext_resource type="Texture2D" uid="uid://bnly1gkbxw6b5" path="res://assets/bubble_pattern.png" id="4_vrefm"]
-[ext_resource type="Texture2D" uid="uid://copkt78vgp37i" path="res://assets/sophia.png" id="5_1lfvv"]
+[ext_resource type="Texture2D" uid="uid://vb24hfgkeyti" path="res://assets/pink.png" id="5_4j23m"]
 [ext_resource type="Texture2D" uid="uid://d000xjtr4iqtk" path="res://assets/emotion_regular.png" id="6_wsx1u"]
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_iq77p"]
@@ -32,6 +32,7 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
+color = Color(0.98234254, 0.9823423, 0.9823424, 1)
 
 [node name="Body" type="TextureRect" parent="."]
 unique_name_in_owner = true
@@ -43,7 +44,7 @@ offset_left = 15.0
 offset_top = 169.0
 offset_right = -176.0
 offset_bottom = 0.47998047
-texture = ExtResource("5_1lfvv")
+texture = ExtResource("5_4j23m")
 expand_mode = 1
 stretch_mode = 5
 
